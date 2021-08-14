@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import Homepage from './components/homepage';
+import NavBar from './components/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>🛠 Profile under construction...</h1>
-      </header>
-    </div>
+    <BrowserRouter>
+      <NavBar/>
+      <Homepage/>
+      {/* <h1>🛠 Profile under construction...</h1> */}
+    </BrowserRouter>
   );
 }
 
