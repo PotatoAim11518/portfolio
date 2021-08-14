@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: right;
+  justify-content: center;
   width: 60%;
   gap: 15px;
 }
@@ -26,8 +26,8 @@
   justify-content: center;
   color: white;
   font-size: 30px;
-  height: 50px;
-  width: 50px;
+  width: 5vh;
+  height: 5vh;
   background-color: slategrey;
   border-radius: 50%;
 }
@@ -35,8 +35,8 @@
 .navLink::after {
   position: fixed;
   content: "";
-  height: 60px;
-  width: 60px;
+  height: 6vh;
+  width: 6vh;
   border-radius: 50%;
   border: 2px solid transparent;
   transition: border 0.4s;
@@ -75,10 +75,9 @@
 }
 
 .avatar {
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 200px;
+  min-width: 15vw;
+  max-width: 15vw;
+  min-height: 15vw;
   background-color: slategrey;
   border-radius: 50%;
 }
-

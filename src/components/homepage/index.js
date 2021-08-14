@@ -5,7 +5,6 @@ const Homepage = () => {
   return (
     <div className={styles.homepageWrapper}>
       <div className={`${styles.section} ${styles.about}`} id="aboutme">
-        <h1>About</h1>
       </div>
       <div className={`${styles.section} ${styles.skills}`} id="skills">
         <h1>Skills</h1>
