@@ -13,23 +13,23 @@ const NavBar = () => {
 
       </div>
       <div className={styles.navLinks}>
-        <NavHashLink className={styles.navLink} to="#aboutme"
+        <NavHashLink className={styles.navLink} activeClassName={styles.navLinkActive} to="#aboutme"
           title="Hi, I'm Wilson.">
           <IoPerson/>
         </NavHashLink>
-        <NavHashLink className={styles.navLink} to="#skills"
+        <NavHashLink className={styles.navLink} activeClassName={styles.navLinkActive} to="#skills"
           title="Here are some things I can do.">
           <FaMagic/>
         </NavHashLink>
-        <NavHashLink className={styles.navLink} to="#projects"
+        <NavHashLink className={styles.navLink} activeClassName={styles.navLinkActive} to="#projects"
           title="Here's what I've built.">
           <IoIosApps/>
         </NavHashLink>
-        <NavHashLink className={styles.navLink} to="#resume"
+        <NavHashLink className={styles.navLink} activeClassName={styles.navLinkActive} to="#resume"
           title="Some quick details about me.">
           <FaScroll/>
         </NavHashLink>
-        <NavHashLink className={styles.navLink} to="#contactme"
+        <NavHashLink className={styles.navLink} activeClassName={styles.navLinkActive} to="#contactme"
           title="Don't be afraid to reach out!">
           <AiOutlineMail/>
         </NavHashLink>

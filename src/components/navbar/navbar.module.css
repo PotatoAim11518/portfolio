@@ -4,7 +4,7 @@
   width: 25%;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 10vh;
   justify-content: flex-start;
   padding-top: 5%;
   align-items: center;
@@ -17,7 +17,7 @@
   align-items: flex-end;
   justify-content: center;
   width: 60%;
-  gap: 15px;
+  gap: 1.5vh;
 }
 
 .navLink {
@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 30px;
+  font-size: 3.5vh;
   width: 5vh;
   height: 5vh;
   background-color: slategrey;
@@ -45,31 +45,35 @@
 .navLink:hover::after {
   position: fixed;
   content: "";
-  height: 52px;
-  width: 52px;
+  height: 5.4vh;
+  width: 5.4vh;
   border-radius: 50%;
   border: 2px solid white;
-  transform: scale(1.05);
   animation: lockOn 0.25s;
 }
+
+.navLinkActive {
+
+}
+
 
 @keyframes lockOn {
   0% {
     border: 2px solid white;
-    height: 60px;
-    width: 60px;
+    height: 6.0vh;
+    width: 6.0vh;
     opacity: 0.2;
   }
   33% {
     border: 2px solid white;
-    height: 54px;
-    width: 54px;
+    height: 5.4vh;
+    width: 5.4vh;
     opacity: 0.5;
   }
   100% {
     border: 2px solid white;
-    height: 50px;
-    width: 50px;
+    height: 5.0vh;
+    width: 5.0vh;
     opacity: 1.0;
   }
 }
