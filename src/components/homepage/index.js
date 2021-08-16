@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../about";
 import Skills from "../skills";
 import styles from "./homepage.module.css"
 
@@ -6,6 +7,7 @@ const Homepage = () => {
   return (
     <div className={styles.homepageWrapper}>
       <div className={`${styles.section} ${styles.about}`} id="aboutme">
+        <About/>
       </div>
       <div className={`${styles.section} ${styles.skills}`} id="skills">
         <h1 className={styles.sectionLabel}>Skills</h1>
