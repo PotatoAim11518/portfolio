@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "../skills";
 import styles from "./homepage.module.css"
 
 const Homepage = () => {
@@ -8,6 +9,7 @@ const Homepage = () => {
       </div>
       <div className={`${styles.section} ${styles.skills}`} id="skills">
         <h1 className={styles.sectionLabel}>Skills</h1>
+        <Skills/>
       </div>
       <div className={`${styles.section} ${styles.projects}`} id="projects">
         <h1 className={styles.sectionLabel}>Projects</h1>

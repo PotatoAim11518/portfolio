@@ -1,0 +1,28 @@
+.skillsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 5vh; */
+  width: 90%;
+  height: 90%;
+  padding: 2vh;
+  margin: 2vh;
+}
+
+.skill {
+  min-width: 12%;
+  max-width: 12%;
+  max-height: 25%;
+  min-height: 25%;
+  font-size: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1vh;
+  margin: 1vh 4vh;
+  color: #D1DECE;
+  text-shadow: 0 0 3px #0E5C5A;
+}

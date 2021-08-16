@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className={styles.avatar}>
 
       </div>
-      <div className={styles.navLinks}>
+      <nav className={styles.navLinks}>
         <NavHashLink className={styles.navLink} activeClassName={styles.navLinkActive} to="#aboutme"
           title="Hi, I'm Wilson.">
           <IoPerson/>
@@ -33,7 +33,7 @@ const NavBar = () => {
           title="Don't be afraid to reach out!">
           <AiOutlineMail/>
         </NavHashLink>
-      </div>
+      </nav>
     </div>
   );
 };
