@@ -1,5 +1,7 @@
 import React from "react";
 import About from "../about";
+import Contact from "../contact";
+import Resume from "../resume";
 import Skills from "../skills";
 import styles from "./homepage.module.css"
 
@@ -18,9 +20,11 @@ const Homepage = () => {
       </div>
       <div className={`${styles.section} ${styles.resume}`} id="resume">
         <h1 className={styles.sectionLabel}>Résumé</h1>
+        <Resume/>
       </div>
       <div className={`${styles.section} ${styles.contact}`} id="contactme">
         <h1 className={styles.sectionLabel}>Contact</h1>
+        <Contact/>
       </div>
     </div>
   );
