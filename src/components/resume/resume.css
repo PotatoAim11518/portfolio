@@ -1,0 +1,43 @@
+#pdf {
+  margin: 4vh 0;
+  box-shadow: 0 0 15px black;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+  width: 10vw;
+  min-width: 4vh;
+  padding: 0.5vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2.5vh;
+  border: 2px solid #85b3b0;
+  transition: background-color 0.3s;
+}
+
+.socialButton:hover {
+  background-color: #85b3b0;
+  transition: background-color 0.3s;
+}
+
+.socialButton:link {
+  color: white;
+}
+
+.socialButton:active {
+  color: #e5c799;
+}
+
+.socialButton:visited {
+  color: white;
+  /* color: #143d3e; */
+  transition: color 0.3s;
+}
+.socialButton:visited:hover {
+  color: #143d3e;
+  transition: color 0.3s;
+}
