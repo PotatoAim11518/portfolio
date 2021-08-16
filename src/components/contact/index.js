@@ -16,7 +16,9 @@ const Contact = () => {
           <AiFillMail />
           <a
             className={styles.links}
-            href="mailto:whuang3015@gmail.com?subject=Hi, I'm reaching out from your Porfolio!"
+            href="mailto:whuang3015@gmail.com?subject=Hi, I'm reaching out from your Portfolio!"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             whuang3015@gmail.com
@@ -34,6 +36,8 @@ const Contact = () => {
         <a
           className={styles.socialButton}
           href="https://github.com/PotatoAim11518/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithub />
           <p className={styles.buttonLabel}> GitHub</p>
@@ -41,6 +45,8 @@ const Contact = () => {
         <a
           className={styles.socialButton}
           href="https://www.linkedin.com/in/wilson-huang-39198039/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaLinkedin />
           <p className={styles.buttonLabel}> LinkedIn</p>
@@ -48,6 +54,8 @@ const Contact = () => {
         <a
           className={styles.socialButton}
           href="https://angel.co/u/wilson-huang-15"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FaAngellist />
           <p className={styles.buttonLabel}> AngelList</p>

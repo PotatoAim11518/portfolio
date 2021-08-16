@@ -18,7 +18,7 @@ const Resume = () => {
         </Document>
       </div>
       <div>
-        <a className={"socialButton"} href="https://drive.google.com/uc?export=download&id=1guI4JiD6wrRyU6BeP1MJEKSVx3SbYK8_">
+        <a className={"downloadButton"} href="https://drive.google.com/uc?export=download&id=1guI4JiD6wrRyU6BeP1MJEKSVx3SbYK8_">
           <AiOutlineDownload />
           <p className={"buttonLabel"}> Download</p>
         </a>
