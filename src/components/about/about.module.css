@@ -1,36 +1,55 @@
 .aboutWrapper {
   color: #0b2020;
   width: 80%;
-  height: 70%;
-  padding: 5% 10%;
-  margin-top: 7%;
+  height: 90%;
+  margin-top: 20vh;
   /* background: linear-gradient(0deg, transparent 20%, #30303027 95%); */
   /* border-radius: 2vh; */
 }
 
 .aboutGreeting {
+  text-rendering: optimizeLegibility;
   animation: blurIn 1.2s;
+  text-shadow: 0 0 1px #85B3B0;
 }
 
 .myName {
+  text-rendering: optimizeLegibility;
   color: #0e5c5a;
+  text-shadow: 0 0 1px #85B3B0;
 }
 
 .whoAmI {
+  text-rendering: optimizeLegibility;
   color: white;
+  text-shadow: 0 0 10px #85B3B0;
   animation: blurIn 2.3s;
 }
 
 .aboutText1 {
-  color: #143d3e;
-  text-shadow: 0 0 5px #85b3b0;
+  text-rendering: optimizeLegibility;
+  width: 50%;
+  padding-top: 5%;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0 0 10px #0b2020;
   animation: floatUp 3s;
+  /* background: linear-gradient(0.35turn, #3f87a683, transparent); */
 }
 
 .aboutText2 {
-  color: #143d3e;
-  text-shadow: 0 0 5px #85b3b0;
-  animation: floatUp 4.0s;
+  text-rendering: optimizeLegibility;
+  padding-left: 65%;
+  padding-top: 12%;
+  align-items: flex-end;
+  text-align: right;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0 0 10px #0b2020;
+  animation: floatUp 4s;
+  /* background: linear-gradient(0.35turn, #3f87a6, transparent); */
 }
 
 @keyframes flyIn {
