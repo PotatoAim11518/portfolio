@@ -3,24 +3,25 @@
   width: 80%;
   height: 90%;
   margin-top: 20vh;
-  /* background: linear-gradient(0deg, transparent 20%, #30303027 95%); */
-  /* border-radius: 2vh; */
 }
 
 .aboutGreeting {
   text-rendering: optimizeLegibility;
+  font-size: 3rem;
   animation: blurIn 1.2s;
   text-shadow: 0 0 1px #85B3B0;
 }
 
 .myName {
   text-rendering: optimizeLegibility;
+  font-size: 3rem;
   color: #0e5c5a;
   text-shadow: 0 0 1px #85B3B0;
 }
 
 .whoAmI {
   text-rendering: optimizeLegibility;
+  font-size: 1.7rem;
   color: white;
   text-shadow: 0 0 10px #85B3B0;
   animation: blurIn 2.3s;

@@ -92,6 +92,9 @@
 
 .buttonLabel {}
 
+.buttonLink:link {
+  color: white;
+}
 
 .buttonLink:active {
   color: #e5c799;

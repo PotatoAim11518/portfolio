@@ -64,7 +64,6 @@
 
 .socialButton:link {
   color: white;
-  /* background-color: slategrey; */
 }
 
 .socialButton:active {
@@ -73,9 +72,9 @@
 
 .socialButton:visited {
   color: white;
-  /* color: #143d3e; */
   transition: color 0.3s;
 }
+
 .socialButton:visited:hover {
   color: #143d3e;
   transition: color 0.3s;
