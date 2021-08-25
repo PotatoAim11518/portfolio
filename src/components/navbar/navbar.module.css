@@ -19,6 +19,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 60%;
+  animation: slideInNav ease-in-out 5.5s;
 }
 
 .sections {
@@ -113,6 +114,29 @@
   min-height: 15vw;
   background-color: slategrey;
   border-radius: 50%;
+  animation: slideInLeft 0.5s;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0.0;
+    transform: translateX(-25vw);
+  }
+  to {
+    opacity: 1.0;
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes slideInNav {
+  0%, 50% {
+    opacity: 0.0;
+    transform: translateX(-25vw);
+  }
+  100% {
+    opacity: 1.0;
+    transform: translateX(0vw);
+  }
 }
 
 @media screen and (max-width: 1200px) {
