@@ -7,9 +7,6 @@
   box-shadow: 0 0 15px black;
 }
 
-.react-pdf__Document {
-}
-
 .react-pdf__Page__canvas {
   width: 31.88vw !important;
   height: 41.25vw !important;

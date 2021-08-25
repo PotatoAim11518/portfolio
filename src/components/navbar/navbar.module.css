@@ -2,7 +2,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 25vw;
+  min-width: 25vw;
+  max-width: 25vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +28,6 @@
   font-weight: 200;
   text-align: right;
   line-height: 6.5vh;
-
 }
 
 .sectionLabel {

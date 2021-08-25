@@ -1,7 +1,7 @@
 .homepageWrapper {
   height: 100vh;
-  margin-left: 25%;
-  width: 75%;
+  width: 100vw;
+  padding-left: 25vw;
 }
 
 .section {
