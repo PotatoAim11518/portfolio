@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e8725ea0.chunk.css",
+    "main.css": "/portfolio/static/css/main.b37681ee.chunk.css",
     "main.js": "/portfolio/static/js/main.27401576.chunk.js",
     "main.js.map": "/portfolio/static/js/main.27401576.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e09647d4.js",
@@ -14,7 +14,7 @@
     "8229b00714077f568f0550d869c84da7.js.LICENSE.txt": "/portfolio/8229b00714077f568f0550d869c84da7.js.LICENSE.txt",
     "index.html": "/portfolio/index.html",
     "static/css/2.ff4fe281.chunk.css.map": "/portfolio/static/css/2.ff4fe281.chunk.css.map",
-    "static/css/main.e8725ea0.chunk.css.map": "/portfolio/static/css/main.e8725ea0.chunk.css.map",
+    "static/css/main.b37681ee.chunk.css.map": "/portfolio/static/css/main.b37681ee.chunk.css.map",
     "static/js/2.5e5bbec8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5e5bbec8.chunk.js.LICENSE.txt",
     "static/media/HUANG_WILSON_RESUME.d091acfc.pdf": "/portfolio/static/media/HUANG_WILSON_RESUME.d091acfc.pdf",
     "static/media/homepage.module.css": "/portfolio/static/media/bythesea.3d415abd.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e09647d4.js",
     "static/css/2.ff4fe281.chunk.css",
     "static/js/2.5e5bbec8.chunk.js",
-    "static/css/main.e8725ea0.chunk.css",
+    "static/css/main.b37681ee.chunk.css",
     "static/js/main.27401576.chunk.js"
   ]
 }
