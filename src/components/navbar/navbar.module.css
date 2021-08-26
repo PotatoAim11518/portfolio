@@ -19,7 +19,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 60%;
-  animation: slideInNav ease-in-out 5.5s;
+  animation: slideInNav 2.5s ease-in-out 2.5s backwards;
 }
 
 .sections {
